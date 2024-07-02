@@ -45,26 +45,3 @@ Execute shell
 docker build . -t node-app-todo
 docker run -d --name node-app-container -p 8000:8000 node-app-todo
 ```
-Youtube [Link](https://www.youtube.com/watch?v=nplH3BzKHPk)
-
-### Timestamps:
-```
-05:10 Overview
-08:30 Github link 
-15:40 AWS EC2
-21:40 Install Jenkins on EC2
-25:10 Opening port 8080 on EC2 SG
-27:00 Back to Jenkins setup on EC2
-29:30 Starting new project in Jenkins
-31:20 Generating Github credentials
-37:50 Entering repository branch name in Jenkins
-39:25 Build project
-41:10 Installing nodejs on EC2
-43:25 Running the app and opening port 8000 on EC2
-46:00 Docker theory
-```
-49:20 Creating dockerfile
-1:04:00 Running docker container
-1:11:30 Automate running app through Jenkins
-1:20:00 Webhooks
-1:28:40 Build trigger
